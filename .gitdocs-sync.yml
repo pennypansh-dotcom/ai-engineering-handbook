@@ -1,0 +1,6 @@
+source_lang: en
+target_langs:
+  - de
+docs_dir: docs/
+output_dir: "i18n/{locale}/docusaurus-plugin-content-docs/current/"
+dry_run: true
