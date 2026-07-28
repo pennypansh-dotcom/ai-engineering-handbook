@@ -13,6 +13,14 @@ production, record **which gate should have caught it and didn't** — and then 
 can't escape the same way twice. An escape is a measurement of your detection layer. Thrown away, it is just a
 bug you fixed. Written down, it is the one piece of evidence that tells you where the chain is blind.
 
+:::note[Field note]
+
+This lesson produced an escape of its own while it was being written: [I told my reviewer to ignore the one
+thing that was wrong](/blog/i-told-my-reviewer-to-ignore-it) — the check that should have caught a mistranslated
+term had been handed a do-not-flag list written by the pass whose work it was checking.
+
+:::
+
 ## The ledger entry
 
 A blameless postmortem asks what in the system let a failure through, not who erred. The escape ledger is that
